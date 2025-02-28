@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sweiver</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1 onclick="location.href='index.html'">Sweiver</h1>
+    </header>
+    <main>
+        <p>A universal reviews platform</p>
+        <button onclick="window.open('search.html')">Read reviews</button>
+        <button onclick="openModal()">Write reviews</button>
+    </main>
+
+    <!-- Login/Signup Modal -->
+    <div id="authModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            
+            <!-- Login Form -->
+            <div id="loginForm">
+                <h2>Login</h2>
+                <input type="text" id="loginUser" placeholder="User ID" required><br>
+                <input type="password" id="loginPassword" placeholder="Password" required><br>
+                <button onclick="login()">Login</button>
+                <button onclick="showSignup()">Sign Up</button>
+            </div>
+
+            <!-- Signup Form -->
+            <div id="signupForm" style="display: none;">
+                <h2>Sign Up</h2>
+                <input type="text" id="signupUser" placeholder="User ID" required><br>
+                <input type="password" id="signupPassword" placeholder="Password" required><br>
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" required><br>
+                <button onclick="signup()">Sign Up</button>
+                <button onclick="showLogin()">Back to Login</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+       
+    </script>
+</body>
+</html>

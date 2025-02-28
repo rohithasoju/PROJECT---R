@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    background: #ffd903;
+    margin: 0;
+}
+h2 {
+    text-align: right;
+}
+
+button {
+    padding: 12px 20px;
+    background: #6e6d70;
+    color: rgb(253, 253, 253);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 0.3s;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+
+    
+}
+.search-box input {
+    padding: 12px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px; /* Adjust the width as needed */
+    box-sizing: border-box;
+}
+ /* Modal Styles */
+ .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    border-radius: 8px;
+}
+.close {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+input {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+}
+button {
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.switch {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+.review-box {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .reviews-section {
+        margin-top: 20px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .review-box {
+        margin-top: 20px;
+        text-align: center;
+    }

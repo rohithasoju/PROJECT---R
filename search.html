@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>Search reviews</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        
+        <body>
+            <header><h1>Sweiver</h1>
+                <body>
+                    <header class="header">
+                        <h1>Sweiver - Read Reviews</h1>
+                        <div class="user-info">
+                           <h2> <span id="usernameDisplay" ></span>
+                            <button class="logout-btn" onclick="logout()">Logout</button>
+                        </div></h2>
+                    </header>
+                
+                    <main>
+                        <p>Welcome to the review section.</p>
+                        <!-- Add your review content here -->
+           
+            </div>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for a product (e.g., Apple)">
+                <button onclick="searchProduct()">Search</button>
+            </div>
+        
+            <div class="review-box" id="reviewBox" style="display: none;">
+                <h3>Write something about this...</h3>
+                <textarea id="reviewText" placeholder="Type your review here..."></textarea>
+                <button onclick="postReview()">Post</button>
+            </div>
+        
+            <div class="reviews-section">
+                <h3>Reviews</h3>
+                <div id="reviewsList"></div>
+            </div>
+            </header>
+            <section id="search-output">
+                <h2 id="search-title" style="display: none;"></h2>
+            </section>
+        
+            <main>
+                <p id="result"></p>
+                <br>
+                <button onclick="location.href='index.html'">🏠 Back to Home</button>
+            </main>
+            
+            <script src="script.js"></script>
+        </body>
+
+</html>
